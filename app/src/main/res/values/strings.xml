@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BazaarApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--For the Titles First Line-->
+    <string name="Fresh">Fresh</string>
+    <string name="Home">Home</string>
+    <string name="Cash">Cash</string>
+
+    <!--For the Title's Second Line-->
+    <string name="Everything">Everything</string>
+    <string name="Delivery">Delivery</string>
+    <string name="OnDelivery">On Delivery</string>
+    <!--For the first page-->
+    <string name="ForFirst1">Experience fresh and good groceries.Everything you will try will be fresh.</string>
+
+
+    <!--For the third page-->
+    <string name="ForThird1">You can pay us when you get your products.And you can pay cash to us.</string>
+
+
+    <!--For the second page-->
+    <string name="ForSecond1">We will provide home delivery.For every product you buy from us.</string>
+
+    <!--Onboarding Button Text-->
+    <string name="ButtonOnBoard">Get Started</string>
+
+    <!--OnBoarding Description-->
+    <string name="FirstDesc"></string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fahim69.bazaarapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BazaarApp"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".Login.ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentHolder.ShowFragment"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".Login.Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login.LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".onboarding.onBoardingScreen"
+            android:exported="false" />
+        <activity
+            android:name=".Splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
